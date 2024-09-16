@@ -1,4 +1,4 @@
-##### Project Overview
+# Project Overview
 This project manages concerts played by different bands at various venues. The three main models are:
 
 - Band: Represents musical bands.
@@ -8,7 +8,7 @@ This project manages concerts played by different bands at various venues. The t
 ##### Relationship Diagram
  - https://dbdiagram.io/d/Savio-66e8847f6dde7f4149487a54
 
-##### Available Methods
+# Available Methods
 1. Concert
  - band(): Returns the band playing in this concert.
  - venue(): Returns the venue where the concert is happening.
@@ -27,7 +27,7 @@ This project manages concerts played by different bands at various venues. The t
  - most_frequent_band(): Returns the band that performed most frequently at this venue.
 
 
- 1. Set Up the Project
+ # Set Up the Project
 First, make sure you have set up the project properly by following these steps:
 
 ##### Clone the repository
@@ -36,7 +36,7 @@ First, make sure you have set up the project properly by following these steps:
 python3 -m venv venv
 source venv/bin/activate   
 
-# For Windows: 
+##### For Windows: 
 python -m venv venv 
 venv\Scripts\activate
 
